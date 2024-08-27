@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.theme-bg {
+  @apply bg-zinc-50 dark:bg-zinc-950 text-zinc-950 dark:text-zinc-50 theme-shift
+}
+
+.theme-bg-i {
+  @apply dark:bg-zinc-50 bg-zinc-950 dark:text-zinc-950 text-zinc-50 theme-shift  shadow-inner shadow-zinc-500/30
+}
+
+.theme-bg-gray {
+  @apply bg-zinc-100 dark:bg-zinc-800 theme-shift shadow-inner 
+}
+
+.theme-shift {
+  @apply transition-colors duration-200 !important
+}
+
+.theme-anim {
+  @apply animate-spin;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0, 0, 0.3, 1);
+  animation-duration: 600ms;
+}

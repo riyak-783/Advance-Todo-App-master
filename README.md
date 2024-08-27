@@ -22,11 +22,7 @@ This project is a full-featured Todo application built using **React**, **Vite**
    ```bash
    npm install
    ```
-4. Set up your environment variables in a `.env` file:
-   ```env
-   VITE_API_URL=your_backend_api_url
-   ```
-5. Start the development server:
+4. Start the development server:
    ```bash
    npm run dev
    ```

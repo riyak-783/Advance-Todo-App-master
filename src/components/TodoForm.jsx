@@ -18,7 +18,7 @@ function TodoForm() {
     return (
         <form onSubmit={handleAddTodo} className='space-x-2 theme-bg-gray p-2 rounded-md px-4  flex w-full mx-auto'>
 
-            <label htmlFor='text' className='self-center'>Add Todo : </label>
+            <label htmlFor='text' className='self-center '>Add Todo : </label>
             <input ref={text} id='text' className='bg-inherit  border-none outline-none rounded-md px-2 flex-grow' type="text" required placeholder='Todo' />
             <button type='submit' className='theme-bg-i h-8 rounded-xl text-2xl font-semibold px-1'> <LuPlus /> </button>
 

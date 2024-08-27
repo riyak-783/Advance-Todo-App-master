@@ -1,6 +1,7 @@
-# Todo Application with Authentication
+# Todo Application with Authentication 
 
 This project is a full-featured Todo application built using **React**, **Vite**, and **Tailwind CSS**. It includes functionalities for creating, reading, updating, and deleting (CRUD) tasks, along with user authentication (login and signup) features.
+## Live link : https://react-vitetodolist.netlify.app/
 
 ## Features
 

@@ -12,8 +12,8 @@ function Layout() {
       </div>
       <div className='text-center gap-2 p-8 theme-bg-black'> Developed by <span className=' font-bold text-lg'>Riya Kumari ❤️</span> 
         <div className='text-2xl flex mx-auto w-fit gap-3 mt-3'>
-          <a href={"https://github.com/ibrarullah23"} target='_blank'><FaGithub /></a>
-          <a href='https://www.linkedin.com/in/ibrar-ullah-23m/' target='_blank'><FaLinkedin /></a>
+          <a href={"https://github.com/riyak-783"} target='_blank'><FaGithub /></a>
+          <a href='https://www.linkedin.com/in/riya-kumari-452044201/' target='_blank'><FaLinkedin /></a>
         </div>
       </div>
     </div>
